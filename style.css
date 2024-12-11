@@ -1,0 +1,130 @@
+body,
+html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar style */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.navbar .search {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.navbar .search button {
+  padding: 5px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .search button:hover {
+  background-color: #0056b3;
+}
+
+/*navber方向鍵*/
+.arrow {
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+}
+
+.arrow:hover {
+  color: #555;
+}
+
+.content {
+  padding: 80px 20px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 940px;
+}
+
+.carousel-track {
+  display: flex;
+}
+
+.carousel img {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.carousel img:last-child {
+  margin-right: 0;
+}
